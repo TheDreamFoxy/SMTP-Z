@@ -1,0 +1,22 @@
+{
+    "client":{
+        "name": "dummy.client.com"
+    },
+    "server": {
+        "host": "smtp.seznam.cz",
+        "port": 25
+    },
+    "real": {
+        "from": "example@seznam.cz",
+        "password": "?Y0urP4$$Word!",
+        "to": "reciever@gmail.com"
+    },
+    "fake": {
+        "from": "Joe <joe@whitehouse.gov>",
+        "for": "You <iam@hot.com>"
+    },
+    "message": {
+        "subject": "Message from Joe Biden",
+        "body": "Yes I am real president so true!1...,.,."
+    }
+}
